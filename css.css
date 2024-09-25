@@ -380,9 +380,7 @@ footer p {
 }
 @media screen and (max-width: 37.5em) {
   /* 600px */
-  html {
-    font-size: 50%;
-  }
+  
 
   .section_container {
     padding-top: 5rem;
