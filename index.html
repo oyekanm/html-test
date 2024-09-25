@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" type="img/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="css.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="Nav__brand">
+        <p class="brand_name">BOLUWATIFE OYEKANMI</p>
+        <div class="Navigation" id="nav">
+          <span class="Nav__button"></span>
+          <span class="Nav__button"></span>
+          <span class="Nav__button"></span>
+        </div>
+      </div>
+      <nav class="Nav">
+        <ul class="Nav__list links">
+          <li><a class="Nav__link" href="#about">About</a></li>
+          <li><a class="Nav__link" href="#resume">Resume</a></li>
+        </ul>
+        <p class="no-display brand_name">BOLUWATIFE OYEKANMI</p>
+        <div class="Nav__links links">
+          <li><a class="Nav__link" href="#portfolio">Portfolio</a></li>
+          <li><a class="Nav__link" href="#gallery">Gallery</a></li>
+        </div>
+      </nav>
+    </header>
+
+    <section class="sect">
+      <div class="linear" style="z-index: 3">
+        <h1>Hi, I'm Boluwatife</h1>
+        <p>a software engineer</p>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="section_container" id="about">
+      <p class="section_title">About</p>
+      <div class="About_container">
+        <p>
+          Im a Front End Web Developer specializing in Front-end web
+          technologies, and i'm also proficient with back-end technologies.
+          I'm a graduate of University of Lagos with a degree of B.ed in Adult Education
+        </p>
+        <p>
+          I'm a native of Ikenne-remo, Ogun state and I'm currently based in
+          Lagos, Nigeria. In my free time i enjoy Writing Songs, Listening to
+          music and Playing football.
+        </p>
+      </div>
+    </section>
+
+    <!-- Resume section -->
+    <section id="resume" class="section_container">
+      <p class="section_title">Resume</p>
+
+      <div class="Resume_container">
+        <p class="Resume_sub-title">Boluwatife Oyekanmi</p>
+        <p class="Resume_role">software engineer</p>
+        <p class="Resume_text">Email: enitanboluwatife5@gmail.com</p>
+        <p class="Resume_text">Location: Lagos, Nigeria</p>
+      </div>
+
+      <div class="Resume_container">
+        <p class="Resume_sub-title">Professional Summary</p>
+        <p class="Resume_text">
+          Software Engineer with expertise in modern web and mobile development
+          technologies. Proficient in JavaScript ecosystem, including React,
+          Next.js, and Node.js, with a strong foundation in both front-end and
+          back-end development. Experienced in building responsive web
+          applications and cross-platform mobile solutions using React Native.
+          Skilled in database management, API development, and deployment across
+          various platforms. Combines technical proficiency with a
+          detail-oriented approach and a commitment to high-quality code.
+          Adaptable team player seeking to leverage diverse skill set in a
+          challenging role to drive innovative software solutions.
+        </p>
+      </div>
+
+      <div class="Resume_container">
+        <p class="Resume_sub-title">Education</p>
+        <p class="Resume_text">B.ed Adult Education, University of Lagos,</p>
+        <p class="Resume_text">September 2018 - August 2024</p>
+      </div>
+
+      <div class="Resume_container">
+        <p class="Resume_sub-title">Skills</p>
+        <ul class="Resume_skills">
+          <li>Continuous learning mindset</li>
+          <li>Strong problem-solving abilities</li>
+          <li>Ability to work in fast pace environment</li>
+          <li>Detailed-oriented and highly organized</li>
+          <li>Excellent communication and teamwork skills</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="section_container" id="portfolio">
+      <p class="section_title">Portfolio</p>
+
+      <div class="Portfolio_container"></div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section_container" id="gallery">
+      <p class="section_title">Gallery</p>
+
+      <div class="carousel">
+        <button class="carousel__button carousel__button--left hide-arrow">
+          &#60;
+        </button>
+        <div class="carousel__track-container">
+          <ul class="carousel__track">
+          
+            <li class="carousel__slide current-slide">
+              <img class="carousel__image" src="img/bolu.jpg" alt="" />
+            </li>
+            <li class="carousel__slide">
+              <img class="carousel__image" src="img/aremo.jpg" alt="" />
+            </li>
+            <li class="carousel__slide ">
+              <img class="carousel__image" src="img/trad ice.jpg" alt="" />
+            </li>
+            <li class="carousel__slide">
+              <img class="carousel__image" src="img/manba.jpg" alt="" />
+            </li>
+            <li class="carousel__slide">
+              <img class="carousel__image" src="img/group.jpg" alt="" />
+            </li>
+            <li class="carousel__slide">
+              <img class="carousel__image" src="img/G signs.jpg" alt="" />
+            </li>
+            <li class="carousel__slide">
+              <img class="carousel__image" src="img/sb.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
+        <button class="carousel__button carousel__button--right">&#62;</button>
+      
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 BOLUWATIFE OYEKANMI. All rights reserved.</p>
+  </footer>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
